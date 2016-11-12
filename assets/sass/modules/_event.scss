@@ -1,0 +1,27 @@
+.single-list-events{
+  padding: 0;
+  margin: 0;
+}
+
+.item-event{
+  background-color: $white;
+  @include span-columns(12);
+  border: 3px solid $gold;
+}
+
+.image-event{
+  margin: 0;
+  @include span-columns(4);
+
+  img{
+    display: block;
+    max-width: 300px;
+    max-height: 300px;
+    width: 100%;
+  }
+}
+
+.details-event{
+  @include span-columns(8);
+  @include padding(15px 20px)
+}

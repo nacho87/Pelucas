@@ -1,0 +1,20 @@
+.single-list-products{
+  @include clearfix;
+}
+
+.item-product{
+  background-color: $white;
+  @include span-columns(4);
+  padding: 10px;
+
+  img{
+    width: 100%;
+  }
+
+  p{
+    @include fontSize(15px);
+    line-height: 18px;
+    font-weight: 600;
+  }
+
+}

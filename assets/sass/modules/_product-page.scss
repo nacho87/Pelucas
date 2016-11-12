@@ -1,0 +1,19 @@
+.section-title, .section-description{
+  color: $white;
+}
+
+
+.section-title{
+  @include fontSize(60px);
+  @include textShadow();
+  font-style: italic;
+  font-weight: 600;
+}
+
+.section-description{
+
+}
+
+.grid-products{
+  background-color: $purple3;
+}

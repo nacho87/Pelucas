@@ -1,0 +1,38 @@
+.list-home-item-products{
+  padding: 0px;
+  @include outer-container;
+  margin-top: 150px;
+}
+
+.home-item-product{
+  border: 3px solid $gold;
+  background-color: $white;
+  text-align: center;
+  @include span-columns(4);
+  @include omega(3n);
+  padding: 90px 10px 20px 10px;
+  position: relative;
+}
+.image-home-product{
+  margin: 0;
+  display: inline-block;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  img{
+    display: block;
+    width: 150px;
+    height: auto;
+  }
+}
+
+.title-home-product{
+  @include fontSize(27px);
+  line-height: 40px;
+}
+
+.description-home-product{
+  @include fontSize(20px);
+  line-height: 24px;
+}

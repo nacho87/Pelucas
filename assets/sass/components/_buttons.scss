@@ -96,3 +96,15 @@ input#s {
     @include float(left);
     width: 70%;
 }
+
+.read-more{
+  color: $primary-font-color;
+  border-radius: 100px;
+  border: 1px solid $gold;
+  height: 40px;
+  width: 150px;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  @include fontSize(14px);
+}

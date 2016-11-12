@@ -1,0 +1,33 @@
+.quienes-somos{
+  .content-section{
+    @include outer-container;
+  }
+
+  .description, .map-section{
+    @include span-columns(6);
+    @include omega(2n);
+    color: $white;
+  }
+
+  .description{
+    padding-top: 80px;
+    p{
+      @include fontSize(24px);
+      line-height: 34px;
+    }
+  }
+
+
+  .map-section{
+    text-align: right;
+  }
+
+  .acf-map{
+    border-radius: 50%;
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    border: 3px solid $gold;
+  }
+}
+

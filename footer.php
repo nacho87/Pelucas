@@ -2,49 +2,34 @@
 /**
  * The template for displaying the footer.
  *
- * Contains the closing of the #content div and all content after
- *
- * @package some_like_it_neat
+ * @package lean
  */
 ?>
-		<?php tha_content_bottom(); ?>
-
-		</main><!-- #main -->
-
-		<?php tha_content_after(); ?>
-
+	<?php tha_content_bottom(); ?>
+	</div>
+	<?php tha_content_after(); ?>
 		<?php tha_footer_before(); ?>
-
-		<footer id="colophon" class="site-footer wrap" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+	<footer id="colophon" class="site-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
 
 		<?php tha_footer_top(); ?>
+		<div class="wrap">
+			<div class="footer-branding">
+				<h2 class="site-title"><?php bloginfo( 'name' ); ?></h2>
+				<div class="site-description"><?php bloginfo( 'description' ) ?></div>
+			</div>
 
-			<section class="site-info">
+			<?php get_template_part( 'page-templates/partials/social_icon' ); ?>
 
-				<?php do_action( 'some_like_it_neat_credits' ); ?>
+			<?php get_template_part( 'page-templates/partials/navbar_footer' ); ?>
 
-				<?php if ( 'no' === get_theme_mod( 'some-like-it-neat_hide_WordPress_credits' ) ) : ?>
-					<a class="wordpress" href="http://wordpress.org/" rel="generator"><?php printf( __( 'Proudly powered by %s WordPress', 'some-like-it-neat' ), '<span class="genericon genericon-wordpress"></span>' ); ?></a>
-					<span class="sep"> | </span>
-				<?php endif; ?>
-
-				<?php echo esc_attr( get_theme_mod( 'some_like_it_neat_footer_colophon', __( 'Some Like it Neat, by Alex Vasquez', 'some-like-it-neat' ) ) );  ?><br />
-
-				<?php tha_footer_bottom(); ?>
-
-			</section><!-- .site-info -->
-
-		</footer><!-- #colophon -->
-
-		<?php tha_footer_after(); ?>
-
-	</div><!-- .wrap -->
-
-</div><!-- #page -->
+		</div>
+		<?php tha_footer_bottom(); ?>
+	</footer>
+	<?php tha_footer_after(); ?>
+</div>
 
 <?php tha_body_bottom(); ?>
-
 <?php wp_footer(); ?>
-
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 </body>
 </html>

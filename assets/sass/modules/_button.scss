@@ -1,0 +1,23 @@
+.btn-white{
+  font-weight: 100;
+  @include fontSize(14px);
+  line-height: 40px;
+  height: 40px;
+  border: 2px solid $gold;
+  display: block;
+  border-radius: 50px;
+  width: 100%;
+  max-width: 160px;
+  margin: 0 auto;
+  background-color: $white;
+  color: $purple3;
+  font-weight: 700;
+}
+a.btn-white{
+  color: $purple3;
+  transition: all 200 ease;
+  &:hover{
+    color: $white;
+    background-color: rgba($purple3, 0.8);
+  }
+}

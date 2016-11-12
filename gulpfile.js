@@ -13,6 +13,7 @@ var url        = 'http://dev.pelucas.net/';
 var build      = './build/';
 var vendors    = './library/vendors/';
 var source     = 'assets/';
+var bower      = source + 'bower_components/';
 var phpSource  = ['**/*.php', 'page-templates/**/*.php', '!library/**/*', '!wpcs/**/*', '!node_modules/**/*', '!vendor/**/*', '!assets/bower_components/**/*', '!**/*-min.css', '!assets/js/vendor/*', '!assets/css/*', '!**/*-min.js', '!assets/js/production.js'];
 var themeBuild = ['**/*.php', 'page-templates/**/*.php', './style.css', './gulpfile.js', './.jshintrc', './.bowerrc', './.gitignore', 'composer.phar', './*.json', './*.md', './screenshot.png', '!library/**/*', '!wpcs/**/*', '!node_modules/**/*', '!vendor/**/*', '!assets/bower_components/**/*', '!**/*-min.css', '!assets/js/vendor/*', '!assets/css/*', '!**/*-min.js', '!assets/js/production.js'];
 
@@ -100,7 +101,13 @@ gulp.task('styles', function() {
 ******************************************************************************/
 
 gulp.task('js', function() {
-  return gulp.src([source + 'js/app/**/*.js'])
+
+  var scripts = [
+    bower + 'jQuery/dist/jquery.js',
+    bower +'owlcarousel/owl-carousel/owl.carousel.js',
+    source + 'js/app/**/*.js',
+  ];
+  return gulp.src(scripts)
     .pipe(concat('development.js'))
     .pipe(gulp.dest(source + 'js'))
     .pipe(rename({

@@ -67,9 +67,12 @@ and Blueprint http://www.blueprintcss.org/
 /*--------------------------------------------------------------
 5.0 Components/Add-ons
 --------------------------------------------------------------*/
+@import '../bower_components/fontSize.scss/font-size';
 @import '../../node_modules/bourbon/app/assets/stylesheets/addons/clearfix';
-@import 'components/buttons';
+// @import 'components/buttons';
 @import 'components/infinite-scroll';
+@import "vendor/owl-carousel";
+@import "mixins/text-shadow";
 
 /*--------------------------------------------------------------
 6.0 Layout and Structure
@@ -84,7 +87,7 @@ and Blueprint http://www.blueprintcss.org/
     /*--------------------------------------------------------------
     6.2 Navigation
     --------------------------------------------------------------*/
-    @import 'components/flexnav';
+    // @import 'components/flexnav';
     @import 'layouts/navigation';
 
     /*--------------------------------------------------------------
@@ -114,3 +117,22 @@ and Blueprint http://www.blueprintcss.org/
     6.7 Accessibility
     --------------------------------------------------------------*/
     @import 'layouts/accessibility';
+
+/*--------------------------------------------------------------
+7.0 Modules
+--------------------------------------------------------------*/
+@import "components/backgrounds";
+@import "components/buttons";
+@import "modules/button";
+// @import "modules/map";
+@import "modules/item-product";
+@import "modules/title-section";
+@import "modules/about";
+@import "modules/banner";
+@import "modules/header";
+@import "modules/navbar";
+@import "modules/footer";
+@import "modules/product-page";
+@import "modules/single-item-product";
+@import "modules/social-link";
+@import "modules/event";

@@ -1,11 +1,14 @@
 {
-	"name": "some-like-it-neat",
-	"version": "1.0.1",
-	"homepage": "http://alexhasnicehair.com",
-	"authors": [
-		"Alex Vasquez <alexjvas@gmail.com>"
-	],
-	"dependencies": {
-		"bi-app-sass": "latest"
-	}
+  "name": "some-like-it-neat",
+  "version": "1.0.1",
+  "homepage": "http://alexhasnicehair.com",
+  "authors": [
+    "Alex Vasquez <alexjvas@gmail.com>"
+  ],
+  "dependencies": {
+    "bi-app-sass": "latest",
+    "fontSize.scss": "*",
+    "jQuery": "^3.1.1",
+    "owlcarousel": "~1.3.2"
+  }
 }
