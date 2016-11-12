@@ -8,8 +8,8 @@
 /******************************************************************************
 | >   PROJECT VARIABLES
 ******************************************************************************/
-var project    = 'slin';
-var url        = 'slin.dev';
+var project    = 'pelucas';
+var url        = 'http://dev.pelucas.net/';
 var build      = './build/';
 var vendors    = './library/vendors/';
 var source     = 'assets/';
