@@ -3,7 +3,10 @@ $medium-screen: 600px;
 $large-screen: 900px;
 
 // Typography
-$base-font-family: $helvetica;
+$josefin:'Josefin Slab';
+$sans-serif: $josefin;
+$serif: $josefin;
+$base-font-family: $josefin;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
@@ -20,21 +23,29 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$blue: #1565c0;
-$dark-gray: #333;
-$medium-gray: #999;
-$light-gray: #ddd;
+$purple1: #0f0213;
+$purple2: #1b0920;
+$purple3: #27142c;
+$purple4: #4f3655;
+
+$gold: #dbbe86;
+
+$white: #ffffff;
+
+$facebook: #3b5698;
+$twitter: #4099ff;
+$googleplus: #d9553c;
 
 // Font Colors
-$base-font-color: $dark-gray;
-$action-color: $blue;
+$base-font-color: $white;
+$action-color: $gold;
 
 // Border
-$base-border-color: $light-gray;
+$base-border-color: $gold;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
-$base-background-color: #fff;
+$base-background-color: $purple1;
 $secondary-background-color: tint($base-border-color, 75%);
 
 // Forms
