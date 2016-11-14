@@ -1,0 +1,66 @@
+{
+    "key": "group_58278da5cbdb2",
+    "title": "Header Button Link",
+    "fields": [
+        {
+            "key": "field_58278f6af5b41",
+            "label": "Label Button",
+            "name": "label_button",
+            "type": "text",
+            "instructions": "Agregar el titulo del boton",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_58278dbcf5b40",
+            "label": "Link banner",
+            "name": "link_banner",
+            "type": "text",
+            "instructions": "Agregar un Anchor Link a una seccion",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-header"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1478988283
+}

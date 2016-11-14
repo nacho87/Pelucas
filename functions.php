@@ -331,23 +331,6 @@ if ( ! function_exists( 'some_like_it_neat_mobile_styles' ) ) :
 
 endif;
 
-if ( ! function_exists( 'some_like_it_neat_add_footer_divs' ) ) :
-	function some_like_it_neat_add_footer_divs()
-	{
-	?>
-
-			<div class="footer-left">
-				<?php echo esc_attr( get_theme_mod( 'some_like_it_neat_footer_left', __( '&copy; All Rights Reserved', 'some-like-it-neat' ) ) ); ?>
-			</div>
-			<div class="footer-right">
-				<?php echo esc_attr( get_theme_mod( 'some_like_it_neat_footer_right', 'Footer Content Right' ) );  ?>
-			</div>
-		<?php
-	}
-	add_action( 'tha_footer_bottom', 'some_like_it_neat_add_footer_divs' );
-
-endif;
-
 // Option Page
 if( function_exists('acf_add_options_page') ) {
 

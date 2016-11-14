@@ -1,5 +1,5 @@
 <?php $location = get_field('map'); ?>
-<section class="quienes-somos bg-purple4">
+<section id="quienes-somos" class="quienes-somos bg-purple4">
 	<div class="wrap">
 		<div class="title-section"><?php echo get_field('title_section_about'); ?></div>
 		<div class="content-section">

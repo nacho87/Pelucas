@@ -11,7 +11,11 @@
 }
 
 .section-description{
+  @include padding(null 10%);
 
+  p {
+    @include fontSize(20px);
+  }
 }
 
 .grid-products{

@@ -1,0 +1,15 @@
+.section-contact {
+  @include padding(null 20px);
+
+  .row-form {
+    input,
+    textarea {
+      @include fontSize(20px);
+    }
+
+    input[type="submit"] {
+      @include fontSize(20px);
+      margin-top: 30px;
+    }
+  }
+}

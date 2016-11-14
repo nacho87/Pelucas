@@ -45,13 +45,18 @@
   }
 
   a{
+    @include fontSize(20px);
     color: $purple3;
     display: block;
     padding-left: 30px;
     padding-right: 30px;
-    @include fontSize(20px);
     font-weight: 600;
     line-height: 100px;
+    text-decoration: none;
+
+    &:hover {
+      color: lighten($purple3, 10%);
+    }
   }
 }
 

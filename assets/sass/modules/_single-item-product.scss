@@ -1,5 +1,7 @@
 .single-list-products{
   @include clearfix;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .item-product{

@@ -7,8 +7,7 @@
 
 	<div class="product-description">
 		<div class="wrap">
-			<h1 class="section-title"><?php echo get_field('title_section') ?></h1>
-			<div class="section-description"><?php echo get_field('description_product') ?></div>
+			<h1 class="section-title"><?php the_title(); ?></h1>
 		</div>
 	</div>
 	<?php tha_header_bottom(); ?>

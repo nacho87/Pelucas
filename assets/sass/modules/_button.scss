@@ -1,6 +1,7 @@
-.btn-white{
-  font-weight: 100;
+.btn {
   @include fontSize(14px);
+  @include user-select(none);
+  font-weight: 100;
   line-height: 40px;
   height: 40px;
   border: 2px solid $gold;
@@ -9,15 +10,42 @@
   width: 100%;
   max-width: 160px;
   margin: 0 auto;
-  background-color: $white;
-  color: $purple3;
   font-weight: 700;
+  color: $white;
+
+  &-white{
+    background-color: $white;
+    color: $purple3;
+  }
+
+  &-big {
+    @include fontSize(30px);
+    height: 70px;
+    line-height: 70px;
+    max-width: 300px;
+  }
 }
-a.btn-white{
-  color: $purple3;
-  transition: all 200 ease;
-  &:hover{
+
+
+a {
+  &.btn {
+    text-decoration: none;
     color: $white;
-    background-color: rgba($purple3, 0.8);
+    background-color: transparent;
+
+    &:hover{
+      color: $white;
+      background-color: rgba($purple3, 0.8);
+      text-decoration: none;
+    }
+  }
+
+  &.btn-white{
+    color: $purple3;
+    transition: all 200ms ease;
+    &:hover{
+      color: $white;
+      background-color: rgba($purple3, 0.8);
+    }
   }
 }

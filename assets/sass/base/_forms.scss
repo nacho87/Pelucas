@@ -26,7 +26,8 @@ textarea {
 }
 
 #{$all-text-inputs},
-select[multiple] {
+select[multiple],
+input:not([type="submit"]) {
   background-color: $base-background-color;
   border: $base-border;
   border-radius: $base-border-radius;
@@ -36,6 +37,7 @@ select[multiple] {
   padding: $base-spacing / 3;
   transition: border-color $base-duration $base-timing;
   width: 100%;
+  color: $white;
 
   &:hover {
     border-color: shade($base-border-color, 20%);
@@ -56,6 +58,27 @@ select[multiple] {
     }
   }
 }
+
+input[type="submit"] {
+  @extend .btn;
+  padding: 0;
+  background-color: transparent;
+  outline: none;
+  margin-top: 30px;
+
+  &:hover {
+    @extend .btn;
+  }
+
+  &:focus {
+    @extend .btn;
+  }
+
+  &:disabled {
+    @extend .btn;
+  }
+}
+
 
 textarea {
   resize: vertical;

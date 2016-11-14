@@ -41,9 +41,9 @@ $em-base: $base-font-size;
 
 /* =Typography
 -------------------------------------------------------------- */
-html {
-  font-size: 62.5%;
-}
+// html {
+//   font-size: 62.5%;
+// }
 
 body {
     font-size: $em-base;
@@ -103,7 +103,7 @@ a, a:visited {
     &:hover {
         @include transition (all 200ms ease-in-out);
         color: $link-color;
-    text-decoration: underline;
+        text-decoration: none;
     }
 }
 

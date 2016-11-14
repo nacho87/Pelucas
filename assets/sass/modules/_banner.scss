@@ -1,4 +1,5 @@
 .banner-home{
+  @include user-select(none);
   padding: 0px;
 
   ul{

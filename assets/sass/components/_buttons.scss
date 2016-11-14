@@ -83,20 +83,6 @@
     @include neat-3d-buttons();
 }
 
-input[type="submit"] {
-    @include neat-buttons($button-bg: $primary-font-color, $border-radius: 0, $border-color: #555 );
-    margin: 0;
-    padding: 8px;
-        &:hover {
-            background-color: darken($base-body-color, 40%);
-            padding: 8px;
-        }
-}
-input#s {
-    @include float(left);
-    width: 70%;
-}
-
 .read-more{
   color: $primary-font-color;
   border-radius: 100px;

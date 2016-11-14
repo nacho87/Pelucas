@@ -11,7 +11,7 @@
 get_header(); ?>
 
 
-	<section class="grid-events">
+	<section class="grid-events bg-purple4">
 		<div class="wrap">
 			<ul class="single-list-events">
 				<?php while( have_rows('list_eventos') ): the_row(); ?>

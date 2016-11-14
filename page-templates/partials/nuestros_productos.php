@@ -13,7 +13,7 @@
 					<div class="description-home-product">
 						<?php the_sub_field('excerpt_product') ?>
 					</div>
-					<a class="btn-white"href="<?php the_sub_field('link_to_section') ?>">Ver Mas</a>
+					<a class="btn btn-white" href="<?php the_sub_field('link_to_section') ?>">Ver Mas</a>
 				</li>
 			<?php endwhile; ?>
 		</ul>

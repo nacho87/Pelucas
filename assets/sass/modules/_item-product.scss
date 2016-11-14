@@ -1,18 +1,31 @@
 .list-home-item-products{
-  padding: 0px;
   @include outer-container;
+  padding: 0px;
   margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &:after {
+    display: none;
+  }
 }
 
 .home-item-product{
+  @include margin(null null 100px);
+  @include span-columns(4);
+  @include omega(3n);
   border: 3px solid $gold;
   background-color: $white;
   text-align: center;
-  @include span-columns(4);
-  @include omega(3n);
-  padding: 90px 10px 20px 10px;
+  float: none;
+  padding: 90px 10px 60px 10px;
   position: relative;
+
+  .btn {
+    @include position(absolute , null 0 10px);
+  }
 }
+
 .image-home-product{
   margin: 0;
   display: inline-block;
