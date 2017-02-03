@@ -1,12 +1,23 @@
 .quienes-somos{
   .content-section{
-    @include outer-container;
+    margin-top: 56px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    @include media($md) {
+      @include outer-container;
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 
   .description, .map-section{
-    @include span-columns(6);
-    @include omega(2n);
     color: $white;
+
+    @include media($md) {
+      @include span-columns(6);
+      @include omega(2n);
+    }
   }
 
   .description{
@@ -25,9 +36,13 @@
   .acf-map{
     border-radius: 50%;
     display: inline-block;
-    height: 400px;
-    width: 400px;
     border: 3px solid $gold;
+    width: 100%;
+    height: auto;
+    @include media($md) {
+      width: 400px;
+      height: 400px;
+    }
   }
 }
 

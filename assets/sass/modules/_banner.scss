@@ -9,5 +9,11 @@
   }
   img{
     display: block;
+    object-fit: cover;
+    min-height: 80vh;
+
+    @include media($md) {
+      min-height: 100vh;
+    }
   }
 }

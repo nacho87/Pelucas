@@ -10,19 +10,19 @@ $visual-grid-opacity: .2;
 $column: 90px;
 $gutter: 30px;
 $grid-columns: 12;
-$max-width:em(940);
+$max-width:940px;
 
 // Breakpoints
-$sm: new-breakpoint(min-width 0 2);
-$smbg: new-breakpoint(min-width em(480) 4);
-$md: new-breakpoint(min-width em(768) 6);
-$mdbg: new-breakpoint(min-width em(1024) 12);
-$hg: new-breakpoint(min-width em(1140) 12);
+$sm: new-breakpoint(min-width 0 12);
+$smbg: new-breakpoint(min-width 480px 12);
+$md: new-breakpoint(min-width 768px 12);
+$mdbg: new-breakpoint(min-width 1024px 12);
+$hg: new-breakpoint(min-width 1140px 12);
 
 // Breakpoints that only come into play when using patterns from http://refills.bourbon.io
 $medium-screen: em(640);
 $large-screen: em(860);
-$medium-screen-up: new-breakpoint(min-width $medium-screen 4);
+$medium-screen-up: new-breakpoint(min-width $medium-screen 12);
 $large-screen-up: new-breakpoint(min-width $large-screen 12);
 
 // ------------------------------------------------------------

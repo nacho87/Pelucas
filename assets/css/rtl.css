@@ -265,7 +265,7 @@ body:before {
   height: 100%;
   left: 0;
   margin: 0 auto;
-  max-width: 58.75em;
+  max-width: 940px;
   opacity: 0.2;
   pointer-events: none;
   position: fixed;
@@ -274,22 +274,22 @@ body:before {
   z-index: 9999; }
   @media screen and (min-width: 0) {
     body:before {
-      background-image: linear-gradient(to left, transparent 0, #ccc 0, #ccc 42.85714%, transparent 42.85714%, transparent 57.14286%, #ccc 57.14286%, #ccc 100%, transparent 100%); } }
-  @media screen and (min-width: 30em) {
-    body:before {
-      background-image: linear-gradient(to left, transparent 0, #ccc 0, #ccc 20%, transparent 20%, transparent 26.66667%, #ccc 26.66667%, #ccc 46.66667%, transparent 46.66667%, transparent 53.33333%, #ccc 53.33333%, #ccc 73.33333%, transparent 73.33333%, transparent 80%, #ccc 80%, #ccc 100%, transparent 100%); } }
-  @media screen and (min-width: 48em) {
-    body:before {
-      background-image: linear-gradient(to left, transparent 0, #ccc 0, #ccc 13.04348%, transparent 13.04348%, transparent 17.3913%, #ccc 17.3913%, #ccc 30.43478%, transparent 30.43478%, transparent 34.78261%, #ccc 34.78261%, #ccc 47.82609%, transparent 47.82609%, transparent 52.17391%, #ccc 52.17391%, #ccc 65.21739%, transparent 65.21739%, transparent 69.56522%, #ccc 69.56522%, #ccc 82.6087%, transparent 82.6087%, transparent 86.95652%, #ccc 86.95652%, #ccc 100%, transparent 100%); } }
-  @media screen and (min-width: 64em) {
+      background-image: linear-gradient(to left, transparent 0, #ccc 0, #ccc 6.38298%, transparent 6.38298%, transparent 8.51064%, #ccc 8.51064%, #ccc 14.89362%, transparent 14.89362%, transparent 17.02128%, #ccc 17.02128%, #ccc 23.40426%, transparent 23.40426%, transparent 25.53191%, #ccc 25.53191%, #ccc 31.91489%, transparent 31.91489%, transparent 34.04255%, #ccc 34.04255%, #ccc 40.42553%, transparent 40.42553%, transparent 42.55319%, #ccc 42.55319%, #ccc 48.93617%, transparent 48.93617%, transparent 51.06383%, #ccc 51.06383%, #ccc 57.44681%, transparent 57.44681%, transparent 59.57447%, #ccc 59.57447%, #ccc 65.95745%, transparent 65.95745%, transparent 68.08511%, #ccc 68.08511%, #ccc 74.46809%, transparent 74.46809%, transparent 76.59574%, #ccc 76.59574%, #ccc 82.97872%, transparent 82.97872%, transparent 85.10638%, #ccc 85.10638%, #ccc 91.48936%, transparent 91.48936%, transparent 93.61702%, #ccc 93.61702%, #ccc 100%, transparent 100%); } }
+  @media screen and (min-width: 480px) {
     body:before {
       background-image: linear-gradient(to left, transparent 0, #ccc 0, #ccc 6.38298%, transparent 6.38298%, transparent 8.51064%, #ccc 8.51064%, #ccc 14.89362%, transparent 14.89362%, transparent 17.02128%, #ccc 17.02128%, #ccc 23.40426%, transparent 23.40426%, transparent 25.53191%, #ccc 25.53191%, #ccc 31.91489%, transparent 31.91489%, transparent 34.04255%, #ccc 34.04255%, #ccc 40.42553%, transparent 40.42553%, transparent 42.55319%, #ccc 42.55319%, #ccc 48.93617%, transparent 48.93617%, transparent 51.06383%, #ccc 51.06383%, #ccc 57.44681%, transparent 57.44681%, transparent 59.57447%, #ccc 59.57447%, #ccc 65.95745%, transparent 65.95745%, transparent 68.08511%, #ccc 68.08511%, #ccc 74.46809%, transparent 74.46809%, transparent 76.59574%, #ccc 76.59574%, #ccc 82.97872%, transparent 82.97872%, transparent 85.10638%, #ccc 85.10638%, #ccc 91.48936%, transparent 91.48936%, transparent 93.61702%, #ccc 93.61702%, #ccc 100%, transparent 100%); } }
-  @media screen and (min-width: 71.25em) {
+  @media screen and (min-width: 768px) {
+    body:before {
+      background-image: linear-gradient(to left, transparent 0, #ccc 0, #ccc 6.38298%, transparent 6.38298%, transparent 8.51064%, #ccc 8.51064%, #ccc 14.89362%, transparent 14.89362%, transparent 17.02128%, #ccc 17.02128%, #ccc 23.40426%, transparent 23.40426%, transparent 25.53191%, #ccc 25.53191%, #ccc 31.91489%, transparent 31.91489%, transparent 34.04255%, #ccc 34.04255%, #ccc 40.42553%, transparent 40.42553%, transparent 42.55319%, #ccc 42.55319%, #ccc 48.93617%, transparent 48.93617%, transparent 51.06383%, #ccc 51.06383%, #ccc 57.44681%, transparent 57.44681%, transparent 59.57447%, #ccc 59.57447%, #ccc 65.95745%, transparent 65.95745%, transparent 68.08511%, #ccc 68.08511%, #ccc 74.46809%, transparent 74.46809%, transparent 76.59574%, #ccc 76.59574%, #ccc 82.97872%, transparent 82.97872%, transparent 85.10638%, #ccc 85.10638%, #ccc 91.48936%, transparent 91.48936%, transparent 93.61702%, #ccc 93.61702%, #ccc 100%, transparent 100%); } }
+  @media screen and (min-width: 1024px) {
+    body:before {
+      background-image: linear-gradient(to left, transparent 0, #ccc 0, #ccc 6.38298%, transparent 6.38298%, transparent 8.51064%, #ccc 8.51064%, #ccc 14.89362%, transparent 14.89362%, transparent 17.02128%, #ccc 17.02128%, #ccc 23.40426%, transparent 23.40426%, transparent 25.53191%, #ccc 25.53191%, #ccc 31.91489%, transparent 31.91489%, transparent 34.04255%, #ccc 34.04255%, #ccc 40.42553%, transparent 40.42553%, transparent 42.55319%, #ccc 42.55319%, #ccc 48.93617%, transparent 48.93617%, transparent 51.06383%, #ccc 51.06383%, #ccc 57.44681%, transparent 57.44681%, transparent 59.57447%, #ccc 59.57447%, #ccc 65.95745%, transparent 65.95745%, transparent 68.08511%, #ccc 68.08511%, #ccc 74.46809%, transparent 74.46809%, transparent 76.59574%, #ccc 76.59574%, #ccc 82.97872%, transparent 82.97872%, transparent 85.10638%, #ccc 85.10638%, #ccc 91.48936%, transparent 91.48936%, transparent 93.61702%, #ccc 93.61702%, #ccc 100%, transparent 100%); } }
+  @media screen and (min-width: 1140px) {
     body:before {
       background-image: linear-gradient(to left, transparent 0, #ccc 0, #ccc 6.38298%, transparent 6.38298%, transparent 8.51064%, #ccc 8.51064%, #ccc 14.89362%, transparent 14.89362%, transparent 17.02128%, #ccc 17.02128%, #ccc 23.40426%, transparent 23.40426%, transparent 25.53191%, #ccc 25.53191%, #ccc 31.91489%, transparent 31.91489%, transparent 34.04255%, #ccc 34.04255%, #ccc 40.42553%, transparent 40.42553%, transparent 42.55319%, #ccc 42.55319%, #ccc 48.93617%, transparent 48.93617%, transparent 51.06383%, #ccc 51.06383%, #ccc 57.44681%, transparent 57.44681%, transparent 59.57447%, #ccc 59.57447%, #ccc 65.95745%, transparent 65.95745%, transparent 68.08511%, #ccc 68.08511%, #ccc 74.46809%, transparent 74.46809%, transparent 76.59574%, #ccc 76.59574%, #ccc 82.97872%, transparent 82.97872%, transparent 85.10638%, #ccc 85.10638%, #ccc 91.48936%, transparent 91.48936%, transparent 93.61702%, #ccc 93.61702%, #ccc 100%, transparent 100%); } }
   @media screen and (min-width: 40em) {
     body:before {
-      background-image: linear-gradient(to left, transparent 0, #ccc 0, #ccc 20%, transparent 20%, transparent 26.66667%, #ccc 26.66667%, #ccc 46.66667%, transparent 46.66667%, transparent 53.33333%, #ccc 53.33333%, #ccc 73.33333%, transparent 73.33333%, transparent 80%, #ccc 80%, #ccc 100%, transparent 100%); } }
+      background-image: linear-gradient(to left, transparent 0, #ccc 0, #ccc 6.38298%, transparent 6.38298%, transparent 8.51064%, #ccc 8.51064%, #ccc 14.89362%, transparent 14.89362%, transparent 17.02128%, #ccc 17.02128%, #ccc 23.40426%, transparent 23.40426%, transparent 25.53191%, #ccc 25.53191%, #ccc 31.91489%, transparent 31.91489%, transparent 34.04255%, #ccc 34.04255%, #ccc 40.42553%, transparent 40.42553%, transparent 42.55319%, #ccc 42.55319%, #ccc 48.93617%, transparent 48.93617%, transparent 51.06383%, #ccc 51.06383%, #ccc 57.44681%, transparent 57.44681%, transparent 59.57447%, #ccc 59.57447%, #ccc 65.95745%, transparent 65.95745%, transparent 68.08511%, #ccc 68.08511%, #ccc 74.46809%, transparent 74.46809%, transparent 76.59574%, #ccc 76.59574%, #ccc 82.97872%, transparent 82.97872%, transparent 85.10638%, #ccc 85.10638%, #ccc 91.48936%, transparent 91.48936%, transparent 93.61702%, #ccc 93.61702%, #ccc 100%, transparent 100%); } }
   @media screen and (min-width: 53.75em) {
     body:before {
       background-image: linear-gradient(to left, transparent 0, #ccc 0, #ccc 6.38298%, transparent 6.38298%, transparent 8.51064%, #ccc 8.51064%, #ccc 14.89362%, transparent 14.89362%, transparent 17.02128%, #ccc 17.02128%, #ccc 23.40426%, transparent 23.40426%, transparent 25.53191%, #ccc 25.53191%, #ccc 31.91489%, transparent 31.91489%, transparent 34.04255%, #ccc 34.04255%, #ccc 40.42553%, transparent 40.42553%, transparent 42.55319%, #ccc 42.55319%, #ccc 48.93617%, transparent 48.93617%, transparent 51.06383%, #ccc 51.06383%, #ccc 57.44681%, transparent 57.44681%, transparent 59.57447%, #ccc 59.57447%, #ccc 65.95745%, transparent 65.95745%, transparent 68.08511%, #ccc 68.08511%, #ccc 74.46809%, transparent 74.46809%, transparent 76.59574%, #ccc 76.59574%, #ccc 82.97872%, transparent 82.97872%, transparent 85.10638%, #ccc 85.10638%, #ccc 91.48936%, transparent 91.48936%, transparent 93.61702%, #ccc 93.61702%, #ccc 100%, transparent 100%); } }
@@ -751,10 +751,10 @@ a, a:visited {
   @media screen and (min-width: 0) {
     .entry-title {
       font-size: 2.5rem; } }
-  @media screen and (min-width: 30em) {
+  @media screen and (min-width: 480px) {
     .entry-title {
       font-size: 4.0625rem; } }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 768px) {
     .entry-title {
       font-size: 6.25rem; } }
 
@@ -962,7 +962,7 @@ body {
   background-color: #0f0213; }
 
 .wrap {
-  max-width: 58.75em;
+  max-width: 940px;
   margin-left: auto;
   margin-right: auto; }
   .wrap::after {
@@ -983,33 +983,11 @@ header {
 
 .site-branding {
   text-align: center; }
-  .site-branding .site-title {
-    font-family: "Josefin Slab"; }
-    @media screen and (min-width: 0) {
-      .site-branding .site-title {
-        font-size: 2.1875rem; } }
-    @media screen and (min-width: 30em) {
-      .site-branding .site-title {
-        font-size: 3.4375rem; } }
-    @media screen and (min-width: 48em) {
-      .site-branding .site-title {
-        font-size: 4.6875rem; } }
-    .site-branding .site-title a, .site-branding .site-title a:visited {
-      line-height: 1; }
+  .site-branding .site-title a, .site-branding .site-title a:visited {
+    line-height: 1; }
   .site-branding .site-description {
-    padding: 25px 0;
-    font-size: 1.25rem;
-    font-family: "Josefin Slab";
-    font-style: italic; }
-    @media screen and (min-width: 0) {
-      .site-branding .site-description {
-        font-size: 0.9375rem; } }
-    @media screen and (min-width: 30em) {
-      .site-branding .site-description {
-        font-size: 1.125rem; } }
-    @media screen and (min-width: 48em) {
-      .site-branding .site-description {
-        font-size: 1.5625rem; } }
+    padding: 25px 0 0 0;
+    font-size: 1.25rem; }
 
 /*--------------------------------------------------------------
     6.2 Navigation
@@ -1201,7 +1179,7 @@ object {
   margin: 0;
   text-align: right; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 768px) {
   .page-template-page-templatestemplate-left-col-php #main {
     display: -ms-flexbox;
     display: flex; } }
@@ -1210,17 +1188,17 @@ object {
   .page-template-page-templatestemplate-left-col-php #main #primary {
     float: left;
     display: block;
-    margin-right: 14.28571%;
-    width: 214.28571%; }
+    margin-right: 2.12766%;
+    width: 31.91489%; }
     .page-template-page-templatestemplate-left-col-php #main #primary:last-child {
       margin-right: 0; } }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 768px) {
   .page-template-page-templatestemplate-left-col-php #main #primary {
     float: left;
     display: block;
-    margin-right: 4.34783%;
-    width: 65.21739%;
+    margin-right: 2.12766%;
+    width: 31.91489%;
     -ms-flex-order: 1;
         order: 1; }
     .page-template-page-templatestemplate-left-col-php #main #primary:last-child {
@@ -1232,16 +1210,16 @@ object {
     .page-template-page-templatestemplate-left-col-php #main #secondary {
       float: left;
       display: block;
-      margin-right: 14.28571%;
-      width: 214.28571%; }
+      margin-right: 2.12766%;
+      width: 31.91489%; }
       .page-template-page-templatestemplate-left-col-php #main #secondary:last-child {
         margin-right: 0; } }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 768px) {
     .page-template-page-templatestemplate-left-col-php #main #secondary {
       float: left;
       display: block;
-      margin-right: 4.34783%;
-      width: 30.43478%;
+      margin-right: 2.12766%;
+      width: 14.89362%;
       -ms-flex-order: 2;
           order: 2; }
       .page-template-page-templatestemplate-left-col-php #main #secondary:last-child {
@@ -1262,37 +1240,37 @@ object {
     .page-template-page-templatestemplate-right-col-php #primary {
       float: left;
       display: block;
-      margin-right: 14.28571%;
-      width: 214.28571%; }
+      margin-right: 2.12766%;
+      width: 31.91489%; }
       .page-template-page-templatestemplate-right-col-php #primary:last-child {
         margin-right: 0; } }
-  @media screen and (min-width: 0) and (min-width: 48em) {
+  @media screen and (min-width: 0) and (min-width: 768px) {
     .page-template-page-templatestemplate-right-col-php #primary {
       float: left;
       display: block;
-      margin-right: 4.34783%;
-      width: 65.21739%; }
+      margin-right: 2.12766%;
+      width: 31.91489%; }
       .page-template-page-templatestemplate-right-col-php #primary:last-child {
         margin-right: 0; } }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 768px) {
   .page-template-page-templatestemplate-right-col-php #secondary {
     float: left ;
     margin-left: 1.5%; } }
-  @media screen and (min-width: 48em) and (min-width: 0) {
+  @media screen and (min-width: 768px) and (min-width: 0) {
     .page-template-page-templatestemplate-right-col-php #secondary {
       float: left;
       display: block;
-      margin-right: 14.28571%;
-      width: 214.28571%; }
+      margin-right: 2.12766%;
+      width: 31.91489%; }
       .page-template-page-templatestemplate-right-col-php #secondary:last-child {
         margin-right: 0; } }
-  @media screen and (min-width: 48em) and (min-width: 48em) {
+  @media screen and (min-width: 768px) and (min-width: 768px) {
     .page-template-page-templatestemplate-right-col-php #secondary {
       float: left;
       display: block;
-      margin-right: 4.34783%;
-      width: 30.43478%; }
+      margin-right: 2.12766%;
+      width: 14.89362%; }
       .page-template-page-templatestemplate-right-col-php #secondary:last-child {
         margin-right: 0; } }
 
@@ -1316,7 +1294,7 @@ object {
 .page-template-page-templatestemplate-full-width-php #comments,
 .page-template-page-templatestemplate-full-width-php footer,
 .page-template-page-templatestemplate-full-width-php #primary-nav {
-  max-width: 58.75em;
+  max-width: 940px;
   margin-left: auto;
   margin-right: auto;
   float: none; }
@@ -1577,47 +1555,58 @@ a.btn-white {
     background-color: rgba(39, 20, 44, 0.8); }
 
 .list-home-item-products {
-  max-width: 58.75em;
+  max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0px;
-  margin-top: 150px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+  padding: 0 10px;
+  margin-top: 150px; }
   .list-home-item-products::after {
     clear: both;
     content: "";
     display: table; }
   .list-home-item-products:after {
     display: none; }
+  @media screen and (min-width: 768px) {
+    .list-home-item-products {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      padding: 0px; } }
 
 .home-item-product {
   margin-bottom: 100px;
-  float: left;
-  display: block;
-  margin-right: 2.12766%;
-  width: 31.91489%;
   border: 3px solid #dbbe86;
   background-color: #ffffff;
   text-align: center;
   float: none;
   padding: 90px 10px 60px 10px;
-  position: relative; }
+  position: relative;
+  width: 100%; }
   .home-item-product:last-child {
-    margin-right: 0; }
-  .home-item-product:nth-child(3n) {
-    margin-right: 0; }
-  .home-item-product:nth-child(3n+1) {
-    clear: left; }
+    margin-bottom: 0; }
+    @media screen and (min-width: 768px) {
+      .home-item-product:last-child {
+        margin-bottom: 100px; } }
   .home-item-product .btn, .home-item-product input[type="submit"] {
     position: absolute;
     right: 0;
     bottom: 10px;
     left: 0; }
+  @media screen and (min-width: 768px) {
+    .home-item-product {
+      float: left;
+      display: block;
+      margin-right: 2.12766%;
+      width: 31.91489%; }
+      .home-item-product:last-child {
+        margin-right: 0; }
+      .home-item-product:nth-child(3n) {
+        margin-right: 0; }
+      .home-item-product:nth-child(3n+1) {
+        clear: left; } }
 
 .image-home-product {
   margin: 0;
@@ -1625,11 +1614,15 @@ a.btn-white {
   transform: translate(-50%, -50%);
   position: absolute;
   top: 0px;
-  left: 50%; }
+  left: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #dbbe86; }
   .image-home-product img {
     display: block;
     width: 150px;
-    height: auto; }
+    height: 150px;
+    object-fit: cover; }
 
 .title-home-product {
   font-size: 27px;
@@ -1640,6 +1633,14 @@ a.btn-white {
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 24px; }
+
+.nuestros-productos {
+  padding-top: 90px;
+  padding-bottom: 70px; }
+  @media screen and (min-width: 768px) {
+    .nuestros-productos {
+      padding-top: 90px;
+      padding-bottom: 140px; } }
 
 .section-contact  {
   padding-right: 20px;
@@ -1661,26 +1662,35 @@ a.btn-white {
   text-align: center; }
 
 .quienes-somos .content-section {
-  max-width: 58.75em;
-  margin-left: auto;
-  margin-right: auto; }
-  .quienes-somos .content-section::after {
-    clear: both;
-    content: "";
-    display: table; }
+  margin-top: 56px;
+  padding-left: 10px;
+  padding-right: 10px; }
+  @media screen and (min-width: 768px) {
+    .quienes-somos .content-section {
+      max-width: 940px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 0;
+      padding-right: 0; }
+      .quienes-somos .content-section::after {
+        clear: both;
+        content: "";
+        display: table; } }
 
 .quienes-somos .description, .quienes-somos .map-section {
-  float: left;
-  display: block;
-  margin-right: 2.12766%;
-  width: 48.93617%;
   color: #ffffff; }
-  .quienes-somos .description:last-child, .quienes-somos .map-section:last-child {
-    margin-right: 0; }
-  .quienes-somos .description:nth-child(2n), .quienes-somos .map-section:nth-child(2n) {
-    margin-right: 0; }
-  .quienes-somos .description:nth-child(2n+1), .quienes-somos .map-section:nth-child(2n+1) {
-    clear: left; }
+  @media screen and (min-width: 768px) {
+    .quienes-somos .description, .quienes-somos .map-section {
+      float: left;
+      display: block;
+      margin-right: 2.12766%;
+      width: 48.93617%; }
+      .quienes-somos .description:last-child, .quienes-somos .map-section:last-child {
+        margin-right: 0; }
+      .quienes-somos .description:nth-child(2n), .quienes-somos .map-section:nth-child(2n) {
+        margin-right: 0; }
+      .quienes-somos .description:nth-child(2n+1), .quienes-somos .map-section:nth-child(2n+1) {
+        clear: left; } }
 
 .quienes-somos .description {
   padding-top: 80px; }
@@ -1695,9 +1705,13 @@ a.btn-white {
 .quienes-somos .acf-map {
   border-radius: 50%;
   display: inline-block;
-  height: 400px;
-  width: 400px;
-  border: 3px solid #dbbe86; }
+  border: 3px solid #dbbe86;
+  width: 100%;
+  height: auto; }
+  @media screen and (min-width: 768px) {
+    .quienes-somos .acf-map {
+      width: 400px;
+      height: 400px; } }
 
 .banner-home {
   -webkit-user-select: none;
@@ -1710,10 +1724,21 @@ a.btn-white {
     list-style: none;
     margin: 0; }
   .banner-home img {
-    display: block; }
+    display: block;
+    object-fit: cover;
+    min-height: 80vh; }
+    @media screen and (min-width: 768px) {
+      .banner-home img {
+        min-height: 100vh; } }
 
 .site-header {
-  position: relative; }
+  position: relative;
+  min-height: 80vh; }
+  .site-header .btn, .site-header input[type="submit"] {
+    display: none; }
+    @media screen and (min-width: 768px) {
+      .site-header .btn, .site-header input[type="submit"] {
+        display: block; } }
 
 .site-branding, .product-description {
   text-align: center;
@@ -1721,8 +1746,10 @@ a.btn-white {
   top: 50%;
   width: 100%;
   transform: translate(0%, -50%);
-  z-index: 10;
-  margin-top: -70px; }
+  z-index: 10; }
+  @media screen and (min-width: 768px) {
+    .site-branding, .product-description {
+      margin-top: -70px; } }
 
 .site-title h1, .site-description {
   color: #ffffff;
@@ -1733,20 +1760,33 @@ a.btn-white {
   cursor: default; }
 
 .site-title h1 {
-  font-size: 78px;
-  font-size: 4.875rem;
-  line-height: 80px;
+  font-size: 35px;
+  font-size: 2.1875rem;
+  text-shadow: 1px 1px 1px black;
+  line-height: 40px;
   font-style: italic;
   font-weight: 700;
-  margin-top: 0;
-  text-shadow: 1px 1px 1px black; }
+  margin-top: 0; }
+  @media screen and (min-width: 768px) {
+    .site-title h1 {
+      font-size: 78px;
+      font-size: 4.875rem;
+      line-height: 80px; } }
 
 .site-description {
-  font-size: 26px;
-  font-size: 1.625rem;
-  line-height: 40px;
-  font-weight: 500;
-  text-shadow: 1px 1px 1px black; }
+  padding-bottom: 0; }
+  .site-description h3 {
+    text-shadow: 1px 1px 1px black;
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 25px;
+    font-weight: 500;
+    margin: 0; }
+    .site-description h3   {
+      font-size: 26px;
+      font-size: 1.625rem;
+      line-height: 40px;
+      margin-bottom: 70px; }
 
 .navbar-header {
   background-color: #ffffff;
@@ -1916,8 +1956,12 @@ a.btn-white {
   background-color: #4099ff; }
 
 .single-list-events {
-  padding: 0;
-  margin: 0; }
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px; }
+  @media screen and (min-width: 768px) {
+    .single-list-events {
+      padding: 0; } }
 
 .item-event {
   float: left;
@@ -1926,23 +1970,34 @@ a.btn-white {
   width: 100%;
   margin-bottom: 30px;
   background-color: #ffffff;
-  border: 3px solid #dbbe86; }
+  border: 3px solid #dbbe86;
+  float: none; }
   .item-event:last-child {
     margin-right: 0; }
+  @media screen and (min-width: 768px) {
+    .item-event {
+      display: -ms-flexbox;
+      display: flex; } }
 
 .image-event {
-  margin: 0;
-  float: left;
-  display: block;
-  margin-right: 2.12766%;
-  width: 31.91489%; }
-  .image-event:last-child {
-    margin-right: 0; }
+  margin: 0; }
+  @media screen and (min-width: 768px) {
+    .image-event {
+      float: left;
+      display: block;
+      margin-right: 2.12766%;
+      width: 31.91489%;
+      float: none; }
+      .image-event:last-child {
+        margin-right: 0; } }
   .image-event img {
     display: block;
-    max-width: 300px;
-    max-height: 300px;
-    width: 100%; }
+    width: 100%;
+    object-fit: cover; }
+    @media screen and (min-width: 768px) {
+      .image-event img {
+        max-width: 300px;
+        height: 100%; } }
 
 .name-event {
   font-size: 16px;
@@ -1957,12 +2012,15 @@ a.btn-white {
   font-weight: bold; }
 
 .details-event {
-  float: left;
-  display: block;
-  margin-right: 2.12766%;
-  width: 65.95745%;
   padding: 15px 20px; }
-  .details-event:last-child {
-    margin-right: 0; }
+  @media screen and (min-width: 768px) {
+    .details-event {
+      float: left;
+      display: block;
+      margin-right: 2.12766%;
+      width: 65.95745%;
+      float: none; }
+      .details-event:last-child {
+        margin-right: 0; } }
 
 /*# sourceMappingURL=../maps/rtl.css.map */

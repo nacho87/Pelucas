@@ -1,0 +1,8 @@
+.grid-events {
+  padding-left: 10px;
+  padding-right: 10px;
+
+  @include media($md) {
+    padding: 0;
+  }
+}

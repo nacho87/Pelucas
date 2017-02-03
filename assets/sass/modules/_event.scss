@@ -1,6 +1,11 @@
 .single-list-events{
-  padding: 0;
   margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  @include media($md) {
+    padding: 0;
+  }
 }
 
 .item-event{
@@ -8,17 +13,28 @@
   margin-bottom: 30px;
   background-color: $white;
   border: 3px solid $gold;
+  float: none;
+
+  @include media($md) {
+    display: flex;
+  }
 }
 
 .image-event{
   margin: 0;
-  @include span-columns(4);
+  @include media($md) {
+    @include span-columns(4);
+    float: none;
+  }
 
   img{
     display: block;
-    max-width: 300px;
-    max-height: 300px;
     width: 100%;
+    object-fit: cover;
+    @include media($md) {
+      max-width: 300px;
+      height: 100%;
+    }
   }
 }
 
@@ -35,6 +51,9 @@
 }
 
 .details-event{
-  @include span-columns(8);
-  @include padding(15px 20px)
+  @include padding(15px 20px);
+  @include media($md) {
+    @include span-columns(8);
+    float: none;
+  }
 }

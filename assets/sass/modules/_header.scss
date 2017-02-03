@@ -1,5 +1,14 @@
 .site-header{
   position: relative;
+  min-height: 80vh;
+
+  .btn {
+    display: none;
+
+    @include media($md) {
+      display: block;
+    }
+  }
 }
 
 .site-branding, .product-description{
@@ -9,7 +18,10 @@
   width: 100%;
   transform: translate(0%, -50%);
   z-index: 10;
-  margin-top: -70px;
+
+  @include media($md) {
+    margin-top: -70px;
+  }
 }
 
 .site-title h1, .site-description{
@@ -18,18 +30,36 @@
   cursor: default;
 }
 
-.site-title h1{
-  @include fontSize(78px);
-  line-height: 80px;
-  font-style: italic;
-  font-weight: 700;
-  margin-top: 0;
-  @include textShadow();
+.site-title {
+  h1{
+    @include fontSize(35px);
+    @include textShadow();
+    line-height: 40px;
+    font-style: italic;
+    font-weight: 700;
+    margin-top: 0;
+
+    @include media($md){
+      @include fontSize(78px);
+      line-height: 80px;
+    }
+  }
 }
 
 .site-description{
-  @include fontSize(26px);
-  line-height: 40px;
-  font-weight: 500;
-  @include textShadow();
+  padding-bottom: 0;
+
+  h3 {
+    @include textShadow();
+    @include fontSize(22px);
+    line-height: 25px;
+    font-weight: 500;
+    margin: 0;
+
+    @include media($md) {
+      @include fontSize(26px);
+      line-height: 40px;
+      margin-bottom: 70px;
+    }
+  }
 }

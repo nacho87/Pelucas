@@ -48,7 +48,7 @@
             "key": "field_55c79283a9e37",
             "label": "Mapa",
             "name": "map",
-            "type": "google_map",
+            "type": "image",
             "instructions": "Agregar datos del mapa",
             "required": 0,
             "conditional_logic": 0,
@@ -57,10 +57,16 @@
                 "class": "",
                 "id": ""
             },
-            "center_lat": "-26.8216645",
-            "center_lng": "-65.2218198",
-            "zoom": 8,
-            "height": 400
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
         }
     ],
     "location": [
@@ -95,5 +101,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1478920157
+    "modified": 1486002820
 }
