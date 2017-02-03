@@ -1661,8 +1661,8 @@ a.btn-white {
 
 .quienes-somos .content-section {
   margin-top: 56px;
-  padding-left: 10px;
-  padding-right: 10px; }
+  padding-left: 20px;
+  padding-right: 20px; }
   @media screen and (min-width: 768px) {
     .quienes-somos .content-section {
       max-width: 940px;
@@ -1676,13 +1676,15 @@ a.btn-white {
         display: table; } }
 
 .quienes-somos .description, .quienes-somos .map-section {
-  color: #ffffff; }
+  color: #ffffff;
+  text-align: justify; }
   @media screen and (min-width: 768px) {
     .quienes-somos .description, .quienes-somos .map-section {
       float: left;
       display: block;
       margin-right: 2.12766%;
-      width: 48.93617%; }
+      width: 48.93617%;
+      text-align: left; }
       .quienes-somos .description:last-child, .quienes-somos .map-section:last-child {
         margin-right: 0; }
       .quienes-somos .description:nth-child(2n), .quienes-somos .map-section:nth-child(2n) {
@@ -1690,12 +1692,14 @@ a.btn-white {
       .quienes-somos .description:nth-child(2n+1), .quienes-somos .map-section:nth-child(2n+1) {
         clear: left; } }
 
-.quienes-somos .description {
-  padding-top: 80px; }
-  .quienes-somos .description p {
-    font-size: 24px;
-    font-size: 1.5rem;
-    line-height: 34px; }
+@media screen and (min-width: 768px) {
+  .quienes-somos .description {
+    padding-top: 80px; } }
+
+.quienes-somos .description p {
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 34px; }
 
 .quienes-somos .map-section {
   text-align: right; }
