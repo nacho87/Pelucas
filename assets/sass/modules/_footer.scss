@@ -1,39 +1,55 @@
 .site-footer{
-  padding-top: $base-spacing*2;
-  padding-bottom: $base-spacing*2;
+  padding: $base-spacing / 2;
+
+  @include media($md) {
+    padding: $base-spacing * 2;
+  }
 
   .wrap{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
   }
 
   .secondary-navbar{
     flex-grow: 2;
   }
   .social{
+    order: 3;
+    @include media($md){
 
+    }
   }
   .footer-branding{
+    width: 100%;
 
+    @include media($md) {
+      width: auto;
+    }
   }
 }
 
 .footer-branding{
   margin-bottom: $base-spacing;
   .site-title{
-    @include fontSize(48px);
+    @include fontSize(20px);
     font-weight: 600;
     font-style: italic;
     color: $white;
     margin-bottom: $base-spacing * 0.5;
     color: $white;
+
+    @include media($md) {
+      @include fontSize(48px);
+    }
   }
 
   .site-description{
-    @include fontSize(26px);
+    @include fontSize(15px);
     font-weight: 300;
+    @include media($md) {
+      @include fontSize(26px);
+    }
   }
 }
-
-

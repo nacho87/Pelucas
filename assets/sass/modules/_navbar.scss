@@ -62,7 +62,11 @@
 
 
 .secondary-navbar{
-
+  margin-bottom: 10px;
+  @include media($md) {
+    margin-bottom: 0;
+  }
+  
   ul{
     padding-left: 0px;
   }
@@ -75,10 +79,16 @@
   }
 
   a{
+    @include fontSize(16px);
     color: $white;
-    @include fontSize(24px);
-    padding-left: $base-spacing;
-    padding-right: $base-spacing;
+    padding-left: $base-spacing / 2;
+    padding-right: $base-spacing / 2;
     display: block;
+
+    @include media($md) {
+      @include fontSize(24px);
+      padding-left: $base-spacing;
+      padding-right: $base-spacing;
+    }
   }
 }

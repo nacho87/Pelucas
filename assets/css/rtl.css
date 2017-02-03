@@ -1833,50 +1833,79 @@ a.btn-white {
     .navbar-header a:hover {
       color: #46244f; }
 
-.secondary-navbar ul {
-  padding-left: 0px; }
-
-.secondary-navbar li {
-  display: inline-block; }
-  .secondary-navbar li:not(:last-child) {
-    border-right: 1px solid #ffffff; }
-
-.secondary-navbar a {
-  color: #ffffff;
-  font-size: 24px;
-  font-size: 1.5rem;
-  padding-left: 24px;
-  padding-right: 24px;
-  display: block; }
+.secondary-navbar {
+  margin-bottom: 10px; }
+  @media screen and (min-width: 768px) {
+    .secondary-navbar {
+      margin-bottom: 0; } }
+  .secondary-navbar ul {
+    padding-left: 0px; }
+  .secondary-navbar li {
+    display: inline-block; }
+    .secondary-navbar li:not(:last-child) {
+      border-right: 1px solid #ffffff; }
+  .secondary-navbar a {
+    font-size: 16px;
+    font-size: 1rem;
+    color: #ffffff;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: block; }
+    @media screen and (min-width: 768px) {
+      .secondary-navbar a {
+        font-size: 24px;
+        font-size: 1.5rem;
+        padding-left: 24px;
+        padding-right: 24px; } }
 
 .site-footer {
-  padding-top: 48px;
-  padding-bottom: 48px; }
+  padding: 12px; }
+  @media screen and (min-width: 768px) {
+    .site-footer {
+      padding: 48px; } }
   .site-footer .wrap {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -ms-flex-pack: justify;
-        justify-content: space-between; }
+        justify-content: space-between;
+    -ms-flex-align: center;
+        align-items: center; }
   .site-footer .secondary-navbar {
     -ms-flex-positive: 2;
         flex-grow: 2; }
+  .site-footer .social {
+    -ms-flex-order: 3;
+        order: 3; }
+  .site-footer .footer-branding {
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .site-footer .footer-branding {
+        width: auto; } }
 
 .footer-branding {
   margin-bottom: 24px; }
   .footer-branding .site-title {
-    font-size: 48px;
-    font-size: 3rem;
+    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     font-style: italic;
     color: #ffffff;
     margin-bottom: 12px;
     color: #ffffff; }
+    @media screen and (min-width: 768px) {
+      .footer-branding .site-title {
+        font-size: 48px;
+        font-size: 3rem; } }
   .footer-branding .site-description {
-    font-size: 26px;
-    font-size: 1.625rem;
+    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 300; }
+    @media screen and (min-width: 768px) {
+      .footer-branding .site-description {
+        font-size: 26px;
+        font-size: 1.625rem; } }
 
 .section-title, .section-description {
   color: #ffffff; }
