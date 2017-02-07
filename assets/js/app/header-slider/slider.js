@@ -1,8 +1,6 @@
 $(document).ready(function(){
   var slider = $('.owl-carousel');
 
-  console.log(slider);
-
   slider.owlCarousel({
     singleItem: true,
     autoPlay: 3000,
@@ -12,4 +10,3 @@ $(document).ready(function(){
     touchDrag : false,
   });
 })
-

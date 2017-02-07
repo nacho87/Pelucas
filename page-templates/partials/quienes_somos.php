@@ -7,9 +7,8 @@
 				<?php echo get_field('description_about') ?>
 			</div>
 			<div class="map-section" >
-
 				<?php if( !empty($location) ): ?>
-
+					<img src="<?php echo $location;?>" alt="">
 				<?php endif; ?>
 			</div>
 		</div>

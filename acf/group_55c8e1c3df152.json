@@ -3,6 +3,11 @@
     "title": "Producto - Single",
     "fields": [
         {
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
             "key": "field_55c8e1d91384e",
             "label": "Titulo Seccion",
             "name": "title_section",
@@ -15,15 +20,15 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": "",
             "readonly": 0,
             "disabled": 0
         },
         {
+            "default_value": "",
+            "new_lines": "wpautop",
+            "maxlength": "",
+            "placeholder": "",
+            "rows": "",
             "key": "field_55c8e5211384f",
             "label": "Descripcion Seccion",
             "name": "description_product",
@@ -36,57 +41,41 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": "",
-            "maxlength": "",
-            "rows": "",
-            "new_lines": "wpautop",
             "readonly": 0,
             "disabled": 0
         },
         {
-            "key": "field_55c8e5f213850",
-            "label": "Lista de Productos",
-            "name": "list_products",
-            "type": "repeater",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "min": "",
-            "max": "",
-            "layout": "table",
-            "button_label": "Add Row",
             "sub_fields": [
                 {
+                    "force_crop": "yes",
+                    "crop_type": "hard",
+                    "preview_size": "thumbnail",
+                    "save_format": "url",
+                    "save_in_media_library": "yes",
+                    "target_size": "medium",
+                    "library": "all",
+                    "retina_mode": "no",
                     "key": "field_55c8e6af13851",
                     "label": "Imagen Producto",
                     "name": "image_gallery_product",
-                    "type": "image",
+                    "type": "image_crop",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "",
+                        "width": "50",
                         "class": "",
                         "id": ""
                     },
-                    "return_format": "url",
-                    "preview_size": "thumbnail",
-                    "library": "all",
-                    "min_width": "",
-                    "min_height": "",
-                    "min_size": "",
-                    "max_width": "",
-                    "max_height": "",
-                    "max_size": "",
-                    "mime_types": ""
+                    "width": "",
+                    "height": 300
                 },
                 {
+                    "default_value": "",
+                    "new_lines": "wpautop",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "rows": "",
                     "key": "field_55c8e6d613852",
                     "label": "Descripcion Galeria",
                     "name": "description_gallery",
@@ -99,16 +88,27 @@
                         "class": "",
                         "id": ""
                     },
-                    "default_value": "",
-                    "placeholder": "",
-                    "maxlength": "",
-                    "rows": "",
-                    "new_lines": "wpautop",
                     "readonly": 0,
                     "disabled": 0
                 }
             ],
-            "collapsed": ""
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Row",
+            "collapsed": "",
+            "key": "field_55c8e5f213850",
+            "label": "Lista de Productos",
+            "name": "list_products",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
         }
     ],
     "location": [
@@ -130,5 +130,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1478920160
+    "modified": 1486417614
 }

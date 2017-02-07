@@ -11734,8 +11734,6 @@ if (typeof Object.create !== "function") {
 $(document).ready(function(){
   var slider = $('.owl-carousel');
 
-  console.log(slider);
-
   slider.owlCarousel({
     singleItem: true,
     autoPlay: 3000,
@@ -11746,3 +11744,14 @@ $(document).ready(function(){
   });
 })
 
+$(document).ready(function(){
+  var mobileMenu = $('.mobile-menu');
+  var button = $('.hamburger');
+
+  button.on('click',function(){
+    console.log('test');
+
+    $(this).toggleClass('is-active');
+    mobileMenu.toggleClass('active');
+  })
+})

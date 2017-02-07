@@ -35,6 +35,12 @@
 
   .map-section{
     text-align: right;
+
+    img {
+      display: block;
+      border-radius: 50%;
+      margin: 0 auto;
+    }
   }
 
   .acf-map{

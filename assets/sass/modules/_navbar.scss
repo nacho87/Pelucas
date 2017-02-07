@@ -1,9 +1,65 @@
 .navbar-header{
-  background-color: $white;
-  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
 
-  .wrap{
-    position: relative;
+  @include media($md) {
+    position: static;
+    background-color: $white;
+    height: 100px;
+  }
+
+  .wrap {
+    position: absolute;
+    background-color: $purple4;
+    width: 100%;
+    height: calc(100vh - 54px);
+    @include transform(translateX(-100%));
+    transition: transform 0.3s ease-in-out;
+
+    @include media($md) {
+      position: relative;
+      background-color: inherit;
+      height: auto;
+      transition: none;
+      @include transform(none);
+    }
+  }
+
+  .mobile-menu.active + .wrap{
+    @include transform(translateX(0));
+  }
+
+  .mobile-menu {
+    display: block;
+    background-color: $purple4;;
+    @include padding(5px);
+
+    @include media($md) {
+      display: none;
+    }
+
+    .hamburger {
+      background-color: $gold;
+      outline: none;
+
+      &:hover {
+        background-color: $gold;
+      }
+      &-box {
+        display: block;
+      }
+
+      &-inner {
+        background-color: $white;
+        &:before,
+        &:after {
+          background-color: $white;
+        }
+      }
+    }
   }
 
   ul{
@@ -11,19 +67,33 @@
     list-style: none;
     margin: 0px;
     text-align: right;
+
+    @include media($md) {
       padding-left: 140px;
+    }
   }
 
   li{
-    display: inline-block;
-    vertical-align: middle;
+    display: block;
+    text-align: center;
+
+    @include media($md) {
+      display: inline-block;
+      vertical-align: middle;
+      text-align: left;
+    }
 
     &:nth-child(1){
-      position: absolute;
-      left: 0px;
+      @include media($md) {
+        position: absolute;
+        left: 0px;
+      }
+
       a{
-        position: relative;
-        padding-left: 45px;
+        @include media($md) {
+          position: relative;
+          padding-left: 45px;
+        }
         &:before{
           content: "\e600";
           font-family: 'icomoon';
@@ -40,22 +110,37 @@
 
   .current_page_item{
     a{
-      box-shadow: inset 0px -3px 0px $purple3
+      &:before {
+        display: none;
+
+        @include media($md) {
+          display: block;
+        }
+      }
+      @include media($md) {
+        box-shadow: inset 0px -3px 0px $purple3
+      }
     }
   }
 
   a{
     @include fontSize(20px);
-    color: $purple3;
+    color: $white;
     display: block;
     padding-left: 30px;
     padding-right: 30px;
     font-weight: 600;
     line-height: 100px;
     text-decoration: none;
-
+    @include media($md) {
+      color: $purple3;
+    }
     &:hover {
-      color: lighten($purple3, 10%);
+      color: lighten($white, 10%);
+
+      @include media($md) {
+        color: lighten($purple3, 10%);
+      }
     }
   }
 }
@@ -66,7 +151,7 @@
   @include media($md) {
     margin-bottom: 0;
   }
-  
+
   ul{
     padding-left: 0px;
   }
