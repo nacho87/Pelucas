@@ -36,8 +36,8 @@
                 "class": "",
                 "id": ""
             },
-            "min": "",
-            "max": "",
+            "min": 0,
+            "max": 0,
             "layout": "row",
             "button_label": "Agregar Item",
             "sub_fields": [
@@ -102,7 +102,8 @@
                     "post_type": [],
                     "taxonomy": [],
                     "allow_null": 0,
-                    "multiple": 0
+                    "multiple": 0,
+                    "allow_archives": 1
                 },
                 {
                     "key": "field_55c7db93cce11",
@@ -132,9 +133,9 @@
     "location": [
         [
             {
-                "param": "page",
+                "param": "page_template",
                 "operator": "==",
-                "value": "17"
+                "value": "page-templates\/home.php"
             }
         ]
     ],
@@ -160,5 +161,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1478920153
+    "modified": 1486587877
 }
