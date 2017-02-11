@@ -9,4 +9,4 @@ $(document).ready(function(){
     mouseDrag : false,
     touchDrag : false,
   });
-})
+});

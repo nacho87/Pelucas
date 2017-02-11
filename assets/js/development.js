@@ -11742,7 +11742,7 @@ $(document).ready(function(){
     mouseDrag : false,
     touchDrag : false,
   });
-})
+});
 
 $(document).ready(function(){
   var mobileMenu = $('.mobile-menu');
@@ -11754,4 +11754,4 @@ $(document).ready(function(){
     $(this).toggleClass('is-active');
     mobileMenu.toggleClass('active');
   })
-})
+});

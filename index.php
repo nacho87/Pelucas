@@ -28,9 +28,6 @@ get_header();
 				?>
 
 			<?php endwhile; ?>
-
-			<?php digistarter_paging_nav(); ?>
-
 		<?php else : ?>
 
 			<?php get_template_part( 'page-templates/partials/content', 'none' ); ?>
