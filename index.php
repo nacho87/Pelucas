@@ -11,7 +11,6 @@
 get_header();
 ?>
 	<?php get_template_part( 'page-templates/partials/quienes_somos' ) ?>
-	<h1>Index</h1>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
