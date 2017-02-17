@@ -302,13 +302,13 @@ a.btn{text-decoration:none;color:#fff;background-color:transparent}a.btn:hover{c
 a.btn-white{color:#27142c;transition:all 200ms ease}a.btn-white:hover{color:#fff;background-color:rgba(39,20,44,0.8)}
 .list-home-item-products{max-width:940px;margin-left:auto;margin-right:auto;padding:0 10px;margin-top:150px}
 .list-home-item-products::after{clear:both;content:"";display:table}
-.list-home-item-products:after{display:none}@media screen and (min-width:768px){.list-home-item-products{display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:0}
+.list-home-item-products:after{display:none}@media screen and (min-width:768px){.list-home-item-products{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:0}
 }.home-item-product{margin-bottom:100px;border:3px solid #dbbe86;background-color:#fff;text-align:center;float:none;padding:90px 10px 60px 10px;position:relative;width:100%}
 .home-item-product:last-child{margin-bottom:0}@media screen and (min-width:768px){.home-item-product:last-child{margin-bottom:100px}
 }.home-item-product .btn,.home-item-product input[type="submit"]{position:absolute;right:0;bottom:10px;left:0}
 @media screen and (min-width:768px){.home-item-product{float:left;display:block;margin-right:2.12766%;width:31.91489%}
 .home-item-product:last-child{margin-right:0}.home-item-product:nth-child(3n){margin-right:0}
-.home-item-product:nth-child(3n+1){clear:left}}.image-home-product{margin:0;display:inline-block;transform:translate(-50%,-50%);position:absolute;top:0;left:50%;border-radius:50%;overflow:hidden;border:3px solid #dbbe86}
+.home-item-product:nth-child(3n+1){clear:left}}.image-home-product{margin:0;display:inline-block;transform:translate(-50%,-50%);position:absolute;top:0;left:50%;border-radius:50%;overflow:hidden;border:3px solid #dbbe86;background-color:#fff}
 .image-home-product img{display:block;width:150px;height:150px;object-fit:cover}.title-home-product{font-size:27px;font-size:1.6875rem;line-height:40px}
 .description-home-product{font-size:20px;font-size:1.25rem;line-height:24px}.nuestros-productos{padding-top:90px;padding-bottom:70px}
 @media screen and (min-width:768px){.nuestros-productos{padding-top:90px;padding-bottom:140px}

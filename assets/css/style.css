@@ -2159,8 +2159,8 @@ a.btn-white {
     .list-home-item-products {
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+      -ms-flex-pack: center;
+          justify-content: center;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
       padding: 0px; } }
@@ -2206,7 +2206,8 @@ a.btn-white {
   left: 50%;
   border-radius: 50%;
   overflow: hidden;
-  border: 3px solid #dbbe86; }
+  border: 3px solid #dbbe86;
+  background-color: #ffffff; }
   .image-home-product img {
     display: block;
     width: 150px;
