@@ -1,13 +1,22 @@
 .single-list-products{
-  @include clearfix;
-  display: flex;
-  flex-wrap: wrap;
+  @include outer-container;
+
+  @include media($md) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .item-product{
   background-color: $white;
-  @include span-columns(4);
   padding: 10px;
+  margin-bottom: 25px;
+
+  @include media($md) {
+    @include span-columns(4);
+    @include omega(3n);
+  }
 
   img{
     width: 100%;
