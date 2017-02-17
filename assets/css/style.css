@@ -2620,7 +2620,8 @@ a.btn-white {
       .item-product:nth-child(3n+1) {
         clear: left; } }
   .item-product img {
-    width: 100%; }
+    width: 100%;
+    display: block; }
   .item-product p {
     font-size: 15px;
     font-size: 0.9375rem;
