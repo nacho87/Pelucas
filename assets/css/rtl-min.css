@@ -314,7 +314,7 @@ a.btn-white{color:#27142c;transition:all 200ms ease}a.btn-white:hover{color:#fff
 @media screen and (min-width:768px){.nuestros-productos{padding-top:90px;padding-bottom:140px}
 }.section-contact{padding-right:20px;padding-left:20px}.section-contact .row-form input,.section-contact .row-form textarea{font-size:20px;font-size:1.25rem}
 .section-contact .row-form input[type="submit"]{font-size:20px;font-size:1.25rem;margin-top:30px}
-.title-section{font-size:48px;font-size:3rem;line-height:50px;color:#fff;text-align:center}
+.section-contact .wpcf7-response-output{margin:0;color:#fff}.title-section{font-size:48px;font-size:3rem;line-height:50px;color:#fff;text-align:center}
 .quienes-somos .content-section{margin-top:56px;padding-left:20px;padding-right:20px}
 @media screen and (min-width:768px){.quienes-somos .content-section{max-width:940px;margin-left:auto;margin-right:auto;padding-left:0;padding-right:0}
 .quienes-somos .content-section::after{clear:both;content:"";display:table}
@@ -337,7 +337,7 @@ a.btn-white{color:#27142c;transition:all 200ms ease}a.btn-white:hover{color:#fff
 }.site-title h1,.site-description{color:#fff;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default}
 .site-title h1{font-size:35px;font-size:2.1875rem;text-shadow:1px 1px 1px black;line-height:40px;font-style:italic;font-weight:700;margin-top:0}
 @media screen and (min-width:768px){.site-title h1{font-size:78px;font-size:4.875rem;line-height:80px}
-}.site-description{padding-bottom:0}.site-description h3{text-shadow:1px 1px 1px black;font-size:22px;font-size:1.375rem;line-height:25px;font-weight:500;margin:0}
+}.site-description{padding-bottom:0;margin-bottom:30px}.site-description h3{text-shadow:1px 1px 1px black;font-size:22px;font-size:1.375rem;line-height:25px;font-weight:500;margin:0}
 .site-description h3{font-size:26px;font-size:1.625rem;line-height:40px;margin-bottom:70px}
 .navbar-header{position:fixed;top:0;left:0;right:0;z-index:2}@media screen and (min-width:768px){.navbar-header{position:static;background-color:#fff;height:100px}
 }.navbar-header .wrap{position:absolute;background-color:#4f3655;width:100%;height:calc(100vh - 54px);transform:translateX(-100%);transition:transform .3s ease-in-out}
@@ -359,7 +359,7 @@ a.btn-white{color:#27142c;transition:all 200ms ease}a.btn-white:hover{color:#fff
 @media screen and (min-width:768px){.secondary-navbar{margin-bottom:0}}.secondary-navbar ul{padding-left:0}
 .secondary-navbar li{display:inline-block}.secondary-navbar li:not(:last-child){border-right:1px solid #fff}
 .secondary-navbar a{font-size:16px;font-size:1rem;color:#fff;padding-left:12px;padding-right:12px;display:block}
-@media screen and (min-width:768px){.secondary-navbar a{font-size:24px;font-size:1.5rem;padding-left:24px;padding-right:24px}
+.secondary-navbar a:hover{color:#fff}@media screen and (min-width:768px){.secondary-navbar a{font-size:24px;font-size:1.5rem;padding-left:24px;padding-right:24px}
 }.site-footer{padding:12px}@media screen and (min-width:768px){.site-footer{padding:48px}
 }.site-footer .wrap{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-align:center;align-items:center}
 .site-footer .secondary-navbar{-ms-flex-positive:2;flex-grow:2}.site-footer .social{-ms-flex-order:3;order:3}

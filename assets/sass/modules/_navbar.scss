@@ -170,6 +170,10 @@
     padding-right: $base-spacing / 2;
     display: block;
 
+    &:hover {
+      color: $white;
+    }
+
     @include media($md) {
       @include fontSize(24px);
       padding-left: $base-spacing;
