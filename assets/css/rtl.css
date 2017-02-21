@@ -2470,7 +2470,11 @@ a.btn-white {
       position: absolute;
       top: 50%;
       transform: translate(0, -50%);
-      left: 10px; }
+      left: 10px;
+      display: none; }
+      @media screen and (min-width: 768px) {
+        .navbar-header li:nth-child(1) a:before {
+          display: block; } }
   .navbar-header .current_page_item a:before {
     display: none; }
     @media screen and (min-width: 768px) {
