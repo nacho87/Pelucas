@@ -15,6 +15,17 @@
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/apple-touch-icon.png?v=zXdaBmlpX8">
+	<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/favicon-32x32.png?v=zXdaBmlpX8" sizes="32x32">
+	<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/favicon-16x16.png?v=zXdaBmlpX8" sizes="16x16">
+	<link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/manifest.json?v=zXdaBmlpX8">
+	<link rel="mask-icon" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/safari-pinned-tab.svg?v=zXdaBmlpX8" color="#5bbad5">
+	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/favicon/favicon.ico?v=zXdaBmlpX8">
+	<meta name="apple-mobile-web-app-title" content="Pelucas Graciela Ani">
+	<meta name="application-name" content="Pelucas Graciela Ani">
+	<meta name="theme-color" content="#ffffff">
+
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700,700italic,100,300' rel='stylesheet' type='text/css'>
 	<?php tha_head_bottom(); ?>
 	<?php wp_head(); ?>
